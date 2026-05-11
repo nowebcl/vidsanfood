@@ -61,7 +61,9 @@ export default function Footer() {
             <ul className="space-y-6 text-sm font-bold text-white/40">
               <li className="flex gap-4">
                 <Mail className="h-5 w-5 text-primary" />
-                <span>sales@vidsanseafoods.cl</span>
+                <a href="mailto:contacto@vidsanfoods.com" className="hover:text-white transition-colors">
+                  contacto@vidsanfoods.com
+                </a>
               </li>
               <li className="flex gap-4">
                 <Phone className="h-5 w-5 text-primary" />
