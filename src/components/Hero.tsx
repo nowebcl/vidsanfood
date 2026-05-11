@@ -9,7 +9,7 @@ export default function Hero() {
   const { t } = useLanguage()
 
   return (
-    <section id="inicio" className="relative h-[85vh] w-full overflow-hidden flex items-center justify-center bg-slate-950">
+    <section id="inicio" className="relative min-h-[100dvh] md:h-[85vh] w-full overflow-hidden flex items-center justify-center bg-slate-950 py-20 md:py-0">
       {/* Background with advanced overlay */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-slate-950/60 z-10" />
@@ -25,37 +25,37 @@ export default function Hero() {
         </video>
       </div>
 
-      <div className="relative z-20 container mx-auto px-6 pt-32">
-        <div className="max-w-4xl mx-auto text-center space-y-10">
+      <div className="relative z-20 container mx-auto px-6 pt-24 md:pt-32">
+        <div className="max-w-4xl mx-auto text-center space-y-6 md:space-y-10">
 
           <div className="space-y-4 inline-block">
-            <span className="inline-block px-4 py-1.5 rounded-full bg-primary/20 border border-primary/20 text-primary text-[10px] font-black uppercase tracking-[0.3em] backdrop-blur-md">
+            <span className="inline-block px-4 py-1.5 rounded-full bg-primary/20 border border-primary/20 text-primary text-[8px] md:text-[10px] font-black uppercase tracking-[0.3em] backdrop-blur-md">
               {t.hero.badge}
             </span>
           </div>
           
-          <h1 className="text-6xl md:text-8xl font-black text-white tracking-tighter leading-[0.9] uppercase">
+          <h1 className="text-4xl md:text-8xl font-black text-white tracking-tighter leading-[0.85] md:leading-[0.9] uppercase">
             {t.hero.title1} <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-red-500 to-primary bg-300% animate-gradient">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-red-500 to-primary bg-300% animate-gradient text-5xl md:text-8xl">
               {t.hero.title2}
             </span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-white/60 max-w-2xl mx-auto leading-relaxed font-medium">
+          <p className="text-lg md:text-2xl text-white/60 max-w-xl md:max-w-2xl mx-auto leading-relaxed font-medium px-4 md:px-0">
             {t.hero.subtitle}
           </p>
           
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-6">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 md:gap-6 pt-2 md:pt-6">
             <Link 
               href="#productos"
-              className="group relative px-12 py-5 bg-primary text-white text-xs font-black uppercase tracking-[0.2em] rounded-2xl overflow-hidden transition-all hover:scale-105 active:scale-95 shadow-2xl shadow-primary/40"
+              className="group relative w-full sm:w-auto px-10 md:px-12 py-3.5 md:py-5 bg-primary text-white text-[10px] md:text-xs font-black uppercase tracking-[0.2em] rounded-2xl overflow-hidden transition-all hover:scale-105 active:scale-95 shadow-2xl shadow-primary/40 text-center"
             >
               <span className="relative z-10">{t.hero.ctaPrimary}</span>
               <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
             </Link>
             <Link 
               href="#nosotros"
-              className="px-12 py-5 bg-white/5 border border-white/10 text-white text-xs font-black uppercase tracking-[0.2em] rounded-2xl hover:bg-white/10 transition-all backdrop-blur-md"
+              className="w-full sm:w-auto px-10 md:px-12 py-3.5 md:py-5 bg-white/5 border border-white/10 text-white text-[10px] md:text-xs font-black uppercase tracking-[0.2em] rounded-2xl hover:bg-white/10 transition-all backdrop-blur-md text-center"
             >
               {t.hero.ctaSecondary}
             </Link>

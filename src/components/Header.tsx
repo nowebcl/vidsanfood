@@ -52,7 +52,7 @@ export default function Header() {
     >
       <nav className="container mx-auto flex items-center justify-between px-6" aria-label="Global">
         <div className="flex lg:flex-1">
-          <Link href="/" className="group flex items-center gap-4">
+          <Link href="/" className="group flex items-center gap-2 md:gap-4">
             <div className="relative h-12 w-12 group-hover:rotate-6 transition-transform">
               <Image
                 src="/logo-blanco.png"
@@ -67,10 +67,10 @@ export default function Header() {
 
 
             <span className={cn(
-              "text-2xl font-black tracking-tighter transition-colors",
+              "text-lg md:text-2xl font-black tracking-tighter transition-colors",
               isLightMode ? "text-foreground" : "text-white"
             )}>
-              VIDSAN<span className="text-primary group-hover:text-primary/80 transition-colors">SEAFOODS</span>
+              VIDSAN<span className="text-primary group-hover:text-primary/80 transition-colors hidden sm:inline">SEAFOODS</span>
             </span>
           </Link>
         </div>
