@@ -13,8 +13,8 @@ export const metadata: Metadata = {
   title: "Vidsan Seafoods | Premium Chilean Seafood Export",
   description: "Líderes en la exportación de productos del mar premium desde la Patagonia Chilena. Calidad, trazabilidad e innovación global.",
   icons: {
-    icon: "/logo-blanco.png",
-    apple: "/logo-blanco.png",
+    icon: "/favicon.png",
+    apple: "/favicon.png",
   },
 
   keywords: ["Seafood Chile", "Vidsan Seafoods", "Exportación productos del mar", "Ancud", "Chilean King Crab", "Centolla", "Langosta"],
