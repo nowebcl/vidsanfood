@@ -11,14 +11,7 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "i.pravatar.cc",
       },
-      {
-        protocol: "https",
-        hostname: "www.vidsanseafoods.cl",
-      },
-      {
-        protocol: "https",
-        hostname: "vidsanseafoods.cl",
-      },
+
 
 
 

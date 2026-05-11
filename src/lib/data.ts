@@ -6,7 +6,7 @@ export const products = [
     scientific_name: "Lithodes Santolla",
     description_es: "Extraída de las aguas más puras de la Patagonia Chilena, nuestra centolla es procesada bajo los estándares internacionales más exigentes.",
     description_en: "Extracted from the purest waters of the Chilean Patagonia, our king crab is processed under the most demanding international standards.",
-    image: "https://www.vidsanseafoods.cl/wp-content/uploads/2025/05/centolla_excursion-austral-scaled-1.jpeg",
+    image: "/placeholder-pronto.png",
     category: "CRUDO CONGELADO",
     formats: [
       { es: "Entera Viva", en: "Whole Live" },
@@ -26,7 +26,7 @@ export const products = [
     scientific_name: "Loxechinus Albus",
     description_es: "Lenguas de erizo premium Grado A, seleccionadas a mano por su color y textura. Un manjar del Pacífico Sur para el mundo.",
     description_en: "Premium Grade A sea urchin roe, hand-selected for color and texture. A South Pacific delicacy for the world.",
-    image: "https://www.vidsanseafoods.cl/wp-content/uploads/2024/03/Erizo-Grado-A.jpg",
+    image: "/placeholder-pronto.png",
     category: "FRESCO ENFRIADO",
     formats: [
       { es: "Fresco en Salmuera", en: "Fresh in Brine" },
@@ -44,7 +44,7 @@ export const products = [
     scientific_name: "Concholepas Concholepas",
     description_es: "Molusco exclusivo de la costa chilena, apreciado por su carne firme y sabor único. Ideal para alta gastronomía.",
     description_en: "Exclusive mollusk from the Chilean coast, appreciated for its firm meat and unique flavor. Ideal for haute cuisine.",
-    image: "https://www.vidsanseafoods.cl/wp-content/uploads/2025/05/LOCO.jpeg",
+    image: "/placeholder-pronto.png",
     category: "CRUDO CONGELADO",
     formats: [
       { es: "Congelado IQF", en: "Frozen IQF" },
@@ -62,7 +62,7 @@ export const products = [
     scientific_name: "Jasus Frontalis",
     description_es: "Capturada artesanalmente bajo normas de sustentabilidad en el Archipiélago Juan Fernández. Sabor insuperable.",
     description_en: "Artisanally captured under sustainability standards in the Juan Fernández Archipelago. Unsurpassed flavor.",
-    image: "https://www.vidsanseafoods.cl/wp-content/uploads/2024/09/Langosta-jf-1-1024x614.jpg",
+    image: "/placeholder-pronto.png",
     category: "VIVO / CONGELADO",
     formats: [
       { es: "Entera Viva", en: "Whole Live" },
@@ -80,7 +80,7 @@ export const products = [
     scientific_name: "Enterectopus Megalocyathus",
     description_es: "Pulpo de roca de los canales australes, procesado para mantener su ternura y sabor característico.",
     description_en: "Rock octopus from the southern channels, processed to maintain its tenderness and characteristic flavor.",
-    image: "https://www.vidsanseafoods.cl/wp-content/uploads/2024/03/pulpo-productos.jpg",
+    image: "/placeholder-pronto.png",
     category: "CRUDO CONGELADO",
     formats: [
       { es: "Entero Eviscerado", en: "Whole Eviscerated" },
@@ -98,7 +98,7 @@ export const products = [
     scientific_name: "Mytilus Chilensis",
     description_es: "Cultivados en las aguas más puras de Chiloé, nuestros mejillones son líderes en exportación global.",
     description_en: "Grown in the purest waters of Chiloé, our mussels are leaders in global export.",
-    image: "https://www.vidsanseafoods.cl/wp-content/uploads/2024/03/choritos-productos.jpg",
+    image: "/placeholder-pronto.png",
     category: "COCIDO CONGELADO",
     formats: [
       { es: "Entero en su Jugo", en: "Whole in Juice" },
@@ -116,7 +116,7 @@ export const products = [
     scientific_name: "Salmo Salar",
     description_es: "Salmón premium de la Patagonia, reconocido por su calidad, color y alto contenido nutricional.",
     description_en: "Premium salmon from Patagonia, recognized for its quality, color, and high nutritional content.",
-    image: "https://www.vidsanseafoods.cl/wp-content/uploads/2024/03/salmon-productos.jpg",
+    image: "/placeholder-pronto.png",
     category: "FRESCO / CONGELADO",
     formats: [
       { es: "Filete Trim C / Trim E", en: "Fillet Trim C / Trim E" },
@@ -134,7 +134,7 @@ export const products = [
     scientific_name: "Metacarcinus Edwardsii",
     description_es: "Jaiba de carne blanca y dulce, procesada íntegramente en nuestras plantas certificadas.",
     description_en: "White and sweet meat crab, entirely processed in our certified plants.",
-    image: "https://www.vidsanseafoods.cl/wp-content/uploads/2024/02/procesamiento-JAIBA.jpg",
+    image: "/placeholder-pronto.png",
     category: "COCIDO CONGELADO",
     formats: [
       { es: "Carne de Jaiba IQF", en: "IQF Crab Meat" },

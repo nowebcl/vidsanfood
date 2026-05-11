@@ -55,13 +55,16 @@ export default function Header() {
           <Link href="/" className="group flex items-center gap-4">
             <div className="relative h-12 w-12 group-hover:rotate-6 transition-transform">
               <Image
-                src="https://www.vidsanseafoods.cl/wp-content/uploads/2024/02/Logo-VidSan-1-130x126.png"
+                src="/logo-blanco.png"
                 alt="Vidsan Logo"
                 fill
-                className="object-contain"
-                unoptimized
+                className={cn(
+                  "object-contain",
+                  isLightMode && "brightness-0"
+                )}
               />
             </div>
+
 
             <span className={cn(
               "text-2xl font-black tracking-tighter transition-colors",

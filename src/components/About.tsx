@@ -73,8 +73,9 @@ export default function About() {
             <div className="lg:w-1/2 relative">
               <div className="relative aspect-square rounded-[40px] overflow-hidden shadow-2xl group">
                 <Image 
-                  src="https://www.vidsanseafoods.cl/wp-content/uploads/2025/01/Copia-de-Muelle-Ancud.jpg"
-                  alt="Vidsan Facilities Muelle Ancud"
+                  src="/placeholder-pronto.png"
+                  alt="Vidsan Facilities"
+
                   fill
                   className="object-cover transition-transform duration-1000 group-hover:scale-110"
                 />
